@@ -19,16 +19,16 @@
     <main>
     <div id="left">
         <button onclick="myFunction()">up</button>
-        <button onclick="myFunction()">left</button>
-        <button onclick="myFunction()">down</button>
-        <button onclick="myFunction()">right</button>
+        <button onclick="myFunction2()">left</button>
+        <button onclick="myFunction3()">down</button>
+        <button onclick="myFunction4()">right</button>
     </div>
     
         
     </main>
     <div id="right">
-        <button onclick="myFunction()">B</button>
-        <button onclick="myFunction()">A</button>
+        <button onclick="myFunction5()">B</button>
+        <button onclick="myFunction6()">A</button>
     </div>
     
     <script>
@@ -36,7 +36,18 @@
           document.getElementById("up").innerHTML = "up";
          
         }
- 
+        function myFunction2() {
+          document.getElementById("left").innerHTML = "left";
+         
+        }
+        function myFunction3() {
+          document.getElementById("down").innerHTML = "down";
+         
+        }
+        function myFunction4() {
+          document.getElementById("right").innerHTML = "right";
+         
+        }
     
         </script>
     <footer>
