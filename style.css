@@ -39,6 +39,11 @@ main #left button {
     
 }
 
+div .left {
+    margin-left: 100px;
+}
+
+
 footer {
     text-align: right;
     margin-top: 300px;
