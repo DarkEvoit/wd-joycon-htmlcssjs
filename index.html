@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>JoyCon</title>
 </head>
 <body>
+    <header>
+        <p id="up"></p>
+        <p id="left"></p>
+        <p id="down"></p>
+        <p id="right"></p>
+
+
+    </header>
+    <main>
+    <div id="left">
+        <button onclick="myFunction()">up</button>
+        <button onclick="myFunction()">left</button>
+        <button onclick="myFunction()">down</button>
+        <button onclick="myFunction()">right</button>
+    </div>
+    
+        
+    </main>
+    <div id="right">
+        <button onclick="myFunction()">B</button>
+        <button onclick="myFunction()">A</button>
+    </div>
+    
+    <script>
+        function myFunction() {
+          document.getElementById("up").innerHTML = "up";
+         
+        }
+ 
+    
+        </script>
+    <footer>
+        21430113, Nicky Hervyan, BD4A, github.com/DarkEvoit
+    </footer>
     <!-- buat komponen yang menggambarkan controller @MUTAMA -->
     <!--    [^]                -->
     <!-- [<][v][>]      [B][A] -->
